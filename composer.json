@@ -1,0 +1,23 @@
+{
+    "name": "komboamina/thingysabu01",
+    "description": "Inventory/Census/General counting application.",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thingysabu01\\": "src/",
+            "Thingysabu01\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amina Kombo",
+            "email": "kombo.work@gmail.com"
+        }
+    ]
+}
